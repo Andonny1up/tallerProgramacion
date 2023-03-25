@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar primary-body fixed-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand navbar-dark" href="#">Locango</a>
+          
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SUPER MENU</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./home.html"><i class="fa-solid fa-house me-1"></i>Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./info.html"><i class="fa-solid fa-circle-info me-1"></i>¿Quienes somos?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./login.html"><i class="fa-solid fa-user me-1"></i>Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container-login">
+                <form class="form-signin">
+                    <h2 class="form-signin-heading">¡Bienvenido!</h2>
+                    <p>El mundo es grande, pero lo estoy pisando</p>
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Correo electrónico" required autofocus>
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
+                    
+                    <button class="btn btn-primary mb-3" type="submit">Iniciar sesión</button>
+                </form>
+              </div>
+        </section>
+        <div class="container">
+            
+          </div>
+          
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/df236c7e60.js" crossorigin="anonymous"></script>
+  </body>
+</html>
